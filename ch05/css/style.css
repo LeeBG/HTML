@@ -1,0 +1,13 @@
+@import url("main.css");
+@import url("header.css");
+@import url("footer.css");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*border두께가 content의 크기를 포함한 값이 된다.
+    300x300 크기에서 border 5px를 주면 290x290이 된다*/
+    /*어떤 태그가 기본값으로 얼마의 마진과 패딩을
+    가지고 있는지 모르기 때문에 0으로 초기화*/
+
+}
