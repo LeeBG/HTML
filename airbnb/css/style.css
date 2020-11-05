@@ -1,136 +1,143 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-header{
-    background-image: url("/HTML/airbnb/images/background.jpg");
-    height: 880px;
-    background-size: cover 100% 100%;
+header {
+  background-image: url("/airbnb/images/background.jpg");
+  height: 880px;
+  background-size: cover 100% 100%;
 }
-nav{   
-    display: flex;
-    font-size: 16px;
-    justify-content: space-between;
+nav {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
 }
-nav a{
-    color: white;
-    text-decoration: none;
+nav a {
+  color: white;
+  text-decoration: none;
 }
-.nav__logo{
-    color: white;
-}
-
-.nav__menu{
-    display: flex;
-}
-.nav__menu div{
-    margin: 10px;
-}
-.search-form{
-    border-radius: 6px;
-    position: relative;
-    top: 50px;
-    left: 50px;
-    background-color: white;
-    width: 400px;
-    padding:30px;
-    display: inline-block;
-
-}
-.l-form-title{
-    font-size: 32px;
-    font-weight: 700;
-    margin: 10px;
-}
-.form-title{
-    margin: 10px 10px;
-    display: inline-block;
-    font-size: 16px;
-    width: 40%;
-    font-weight: 700;
-}
-.search-form > input{
-    width: 90%;
-    margin-top: 0;
-    margin-left: 10px;
-}
-.date{
-    display: flex;
-    justify-content: space-between;
-}
-.form-date{
-    margin-left: 10px;
-    width: 50%;
-}
-.form-button{
-    width: 70px;
-    height: 50px;
-    margin: 10px;
-    
-}
-.leftmg{
-    margin-left: 10%;
-}
-.rightmg{
-    margin-right: 10%;
-}
-.form-button button{
-    position: absolute;
-    bottom: 40px;
-    right: 50px;
-    width: 60px;
-    height: 45px;
-    font-size: 16px;
-    background-color: rgb(182, 71, 71);
-    border-radius: 4px;
-    padding: 2px;
-    color: white;    
-    box-shadow: 0 2px 2px 0;
-    outline: 0;
-    cursor: pointer;
-}
-.l-title{
-    font-size: 20px;
-    font-weight: 700;
-}
-.card-box{
-    display: flex;
-    justify-content: space-between;
-}
-.card-box-section{
-    border: 1px solid black;
-    display: flex; 
-    height: 100px;
-    width: 300px;
-    margin: 3px;
-    cursor: pointer;
-    border-radius: 6px;
-    border-color: burlywood;
-}
-.card-box-image{
-    padding: 0;
-    margin: 0;
-    padding-right: 5px;
-    width: 100px;
-    box-sizing: border-box; 
-    background-color: cornsilk;
+.nav__logo {
+  color: white;
 }
 
-.card-box-image img{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
+.nav__menu {
+  display: flex;
 }
-.card-box-text{
-    display: flex;
-    align-items: center;
-    
+.nav__menu div {
+  margin: 10px;
 }
-.ad__section{
-    width: 100%;
-    height: 100%;
-    background-image: url("/HTML/airbnb/images/ad1.jpg");
-    background-size: 100% 100%;
+.search-form {
+  border-radius: 6px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  display: inline-block;
+}
+.l-form-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 10px;
+}
+.form-title {
+  margin: 10px 10px;
+  display: inline-block;
+  font-size: 16px;
+  width: 40%;
+  font-weight: 700;
+}
+.search-form > input {
+  width: 90%;
+  margin-top: 0;
+  margin-left: 10px;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+.form-date {
+  margin-left: 10px;
+  width: 50%;
+}
+.form-button {
+  width: 70px;
+  height: 50px;
+  margin: 10px;
+}
+.topmg {
+  margin-top: 10px;
+}
+.leftmg {
+  margin-left: 10%;
+}
+.rightmg {
+  margin-right: 10%;
+}
+.form-button button {
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+  width: 60px;
+  height: 45px;
+  font-size: 16px;
+  background-color: rgb(182, 71, 71);
+  border-radius: 4px;
+  padding: 2px;
+  color: white;
+  box-shadow: 0 2px 2px 0;
+  outline: 0;
+  cursor: pointer;
+}
+.l-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.card-box {
+  display: flex;
+  justify-content: space-between;
+}
+.card-box-section {
+  border: 1px solid black;
+  display: flex;
+  height: 100px;
+  width: 300px;
+  margin: 3px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: burlywood;
+}
+.card-box-image {
+  padding: 0;
+  margin: 0;
+  padding-right: 5px;
+  width: 100px;
+  box-sizing: border-box;
+  background-color: cornsilk;
+}
+
+.card-box-image img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.card-box-text {
+  display: flex;
+  align-items: center;
+}
+.ad {
+  margin-top: 20px;
+  display: flex;
+  border: 1px solid black;
+  height: 300px;
+  border-radius: 20px;
+  background-image: url("/airbnb/images/ad1.jpg");
+  background-size: 100% 100%;
+}
+.ad__section {
+  width: 100%;
+  height: 100%;
 }
