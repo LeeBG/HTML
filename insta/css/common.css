@@ -1,0 +1,46 @@
+*{
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FAFAFA;
+}
+/* 버튼,마진,폰트 사이즈*/
+
+/* mt, mb */
+
+.rd6{
+    border-radius: 6px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.mt15{
+    margin-top: 15px;
+}
+.a-link-facebook{
+    color:#385185;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.a-link-forget{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+
+}
+
+.a-link-enter{
+    color: #0095f6;
+    text-decoration: none;
+}
+

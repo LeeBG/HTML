@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:auto;
+    padding: 30px 100px;
+
+}
+.footer__box{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer__box2{
+    font-size: 12px;
+    color: rgba(var(--f52,142,142,142),1);
+    text-align: center;
+    margin-left: 10px;
+}
+.footer__box a{
+    font-size: 12px;
+    font-weight: 700;
+    color: #00376b;
+    text-decoration: none;
+    margin-left: 30px;
+}
