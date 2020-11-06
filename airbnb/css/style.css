@@ -1,143 +1,253 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
 header {
-  background-image: url("/airbnb/images/background.jpg");
-  height: 880px;
-  background-size: cover 100% 100%;
+    background-image: url("/HTML/airbnb/images/background.jpg");
+    height: 880px;
+    background-size: cover 100% 100%;
 }
+
 nav {
-  display: flex;
-  font-size: 16px;
-  justify-content: space-between;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
 }
+
 nav a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 .nav__logo {
-  color: white;
+    color: white;
 }
 
 .nav__menu {
-  display: flex;
+    display: flex;
 }
+
 .nav__menu div {
-  margin: 10px;
+    margin: 10px;
 }
+
 .search-form {
-  border-radius: 6px;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  background-color: white;
-  width: 400px;
-  padding: 30px;
-  display: inline-block;
+    border-radius: 6px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    display: inline-block;
 }
+
 .l-form-title {
-  font-size: 32px;
-  font-weight: 700;
-  margin: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px;
 }
+
 .form-title {
-  margin: 10px 10px;
-  display: inline-block;
-  font-size: 16px;
-  width: 40%;
-  font-weight: 700;
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 16px;
+    width: 40%;
+    font-weight: 700;
 }
-.search-form > input {
-  width: 90%;
-  margin-top: 0;
-  margin-left: 10px;
+
+.search-form>input {
+    width: 90%;
+    margin-top: 0;
+    margin-left: 10px;
 }
+
 .date {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 .form-date {
-  margin-left: 10px;
-  width: 50%;
+    margin-left: 10px;
+    width: 50%;
 }
+
 .form-button {
-  width: 70px;
-  height: 50px;
-  margin: 10px;
+    width: 70px;
+    height: 50px;
+    margin: 10px;
 }
+
 .topmg {
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 .leftmg {
-  margin-left: 10%;
+    margin-left: 10%;
 }
+
 .rightmg {
-  margin-right: 10%;
+    margin-right: 10%;
 }
+
 .form-button button {
-  position: absolute;
-  bottom: 40px;
-  right: 50px;
-  width: 60px;
-  height: 45px;
-  font-size: 16px;
-  background-color: rgb(182, 71, 71);
-  border-radius: 4px;
-  padding: 2px;
-  color: white;
-  box-shadow: 0 2px 2px 0;
-  outline: 0;
-  cursor: pointer;
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    width: 60px;
+    height: 45px;
+    font-size: 16px;
+    background-color: rgb(182, 71, 71);
+    border-radius: 4px;
+    padding: 2px;
+    color: white;
+    box-shadow: 0 2px 2px 0;
+    outline: 0;
+    cursor: pointer;
 }
+
 .l-title {
-  font-size: 20px;
-  font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
 }
+
 .card-box {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 .card-box-section {
-  border: 1px solid black;
-  display: flex;
-  height: 100px;
-  width: 300px;
-  margin: 3px;
-  cursor: pointer;
-  border-radius: 6px;
-  border-color: burlywood;
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    width: 300px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: burlywood;
 }
+
 .card-box-image {
-  padding: 0;
-  margin: 0;
-  padding-right: 5px;
-  width: 100px;
-  box-sizing: border-box;
-  background-color: cornsilk;
+    padding: 0;
+    margin: 0;
+    padding-right: 5px;
+    width: 100px;
+    box-sizing: border-box;
+    background-color: cornsilk;
 }
 
 .card-box-image img {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
+
 .card-box-text {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 .ad {
-  margin-top: 20px;
-  display: flex;
-  border: 1px solid black;
-  height: 300px;
-  border-radius: 20px;
-  background-image: url("/airbnb/images/ad1.jpg");
-  background-size: 100% 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    box-shadow: 0 0 3px 0;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("/HTML/airbnb/images/ad1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
 }
+
 .ad__section {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.ad2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    box-shadow: 0 0 3px 0;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url("/HTML/airbnb/images/ad2.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.choo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choo img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.s-title {
+    font-size: 12px;
+    color: rgb(114, 110, 110);
+}
+
+.choo__item {
+    display: flex;
+    width: 100px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home>div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home-box {
+    margin: 0px;
+    margin-top: 10px;
+    width: 25%;
+    display: flex;
+}
+
+.home-item__img {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+}
+
+.home-item__img img {
+    width: 120%;
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.xs-title {
+    font-size: 10px;
+    font-weight: 700;
+    color: #acaaa9;
+    cursor: pointer;
+}
+
+.xl-title {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+span {
+    font-size: 6px;
+    cursor: pointer;
 }
