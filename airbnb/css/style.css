@@ -224,11 +224,11 @@ nav a {
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-    height: 150px;
+    height: 200px;
 }
 
 .home-item__img img {
-    width: 120%;
+    width: 130%;
     height: 100%;
     border-radius: 4px;
     cursor: pointer;
