@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
 .topmg10 {
     margin-top: 10px;
 }
@@ -6,6 +12,10 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+}
+
+.leftmg80{
+    margin-left: 80px;
 }
 
 .header {
@@ -23,13 +33,67 @@ body {
     height: 70px;
     background-color: #363d3f;
     background-image: url("/HTML/tour/images/menu.png");
+    cursor: pointer;
 }
 
+.shex{
+    margin-left: 10px;
+}
 .shex h2 {
-    padding-left: 10px;
     color: gray;
 }
+.main_section{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
 
-.main_menu {}
+.main_menu {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    height: 50%;
+}
 
-.main_menu__item {}
+.main_menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 25%;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.parent_tour_img_box{
+    display: flex;
+    background-image: url("/HTML/tour/images/tour.jpg");
+    background-size: 100% 100%;
+    width: 60%;
+    height: 50%;
+    position: relative;
+}
+
+.child_letour{
+    width: 70%;
+    font-size: 100px;
+    font-weight: 700;
+    position : absolute;
+    top: 20%;
+    left: -40%;
+
+}
+.child_page_number{
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 20%;
+    height: 50px;
+    bottom: 0px;
+
+}
