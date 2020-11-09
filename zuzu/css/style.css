@@ -1,10 +1,16 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-.background_frame{
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.background_frame {
     position: relative;
     border: 1px solid black;
     height: 1000px;
@@ -12,15 +18,17 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.bgimg{
+
+.bgimg {
     display: flex;
     width: 50%;
     height: 100%;
     background-image: url("/HTML/zuzu/images/vacation.jpg");
     background-size: 120% 100%;
 }
-.bgtitle{
-    position: relative;  
+
+.bgtitle {
+    position: relative;
     width: 50%;
     height: 85%;
     display: flex;
@@ -31,7 +39,8 @@ body{
     font-weight: 700;
     background-color: #f8eceb;
 }
-.under_title{
+
+.under_title {
     background-color: white;
     position: absolute;
     font-size: 10px;
@@ -43,8 +52,14 @@ body{
     left: 50%;
     bottom: 2%;
 }
-.header{
-    
+
+.under_title .bracket {
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header {
     top: 10px;
     width: 100%;
     position: absolute;
@@ -52,12 +67,14 @@ body{
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
-    font-weight: 700;   
+    font-weight: 700;
 }
-.main_title{
+
+.main_title {
     padding-left: 30px;
 }
-.main_menu nav{
+
+.main_menu nav {
     font-size: 20px;
     font-weight: 700;
     display: flex;
@@ -65,11 +82,12 @@ body{
     list-style: none;
 }
 
-li a{
+li a {
     color: black;
     text-decoration: none;
 }
 
-.search{
+.search {
     padding-right: 30px;
+    display: flex;
 }
