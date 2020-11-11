@@ -1,34 +1,38 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-
-body{
+body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #FAFAFC;
 }
-header{
+
+header {
     margin-top: 80px;
     padding-left: 25px;
     margin-bottom: 50px;
 }
-.nevigation{
+
+.nevigation {
     padding-left: 25px;
     margin-bottom: 50px;
 }
-.nevigation .nevigation__list{
+
+.nevigation .nevigation__list {
     list-style-type: none;
     display: flex;
 }
-.nevigation .nevigation__list .nevigation__item{
+
+.nevigation .nevigation__list .nevigation__item {
     margin-right: 40px;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.nevigation .nevigation__list .nevigation__item .item__round{
+
+.nevigation .nevigation__list .nevigation__item .item__round {
     background-color: white;
     width: 50px;
     height: 50px;
@@ -36,63 +40,64 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
     cursor: pointer;
-    box-shadow: 0 0 5px 0 rgb(58, 56, 56) ;
+    box-shadow: 0 0 5px 0 rgb(58, 56, 56);
 }
 
-.nevigation .nevigation__list .nevigation__item .item__icon{
+.nevigation .nevigation__list .nevigation__item .item__icon {
     font-size: 20px;
 }
 
-.nevigation .nevigation__list .nevigation__item .item__text{
+.nevigation .nevigation__list .nevigation__item .item__text {
     margin-top: 10px;
     font-weight: 600;
 }
 
-.featured{
-    padding:25px 25px 50px 25px;
+.featured {
+    padding: 25px 25px 50px 25px;
 }
 
-.featured .featured__title{
+.featured .featured__title {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-.featured .feature__meals{
+.featured .feature__meals {
+    margin-left: 0px;
     display: flex;
     justify-content: space-between;
 }
 
-.line{
+.line {
     height: 1px;
     background-color: rgb(136, 127, 127);
     opacity: 0.5;
 }
 
-.featured .feature__meals img{
+.featured .feature__meals img {
     border-radius: 10px;
 }
-.recipes{
+
+.recipes {
     margin-top: 30px;
     padding-left: 25px;
 }
-.recipes .recipes__list{
 
-}
+.recipes .recipes__list {}
 
-.recipes .recipes__list .recipes__item{
+.recipes .recipes__list .recipes__item {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     font-size: 16px;
     font-weight: 600;
     margin: 30px 0 30px 0;
 }
 
-.recipes .recipes__list .recipes__item .recipes__name{
+.recipes .recipes__list .recipes__item .recipes__name {
     font-size: 20px;
 }
-.recipes .recipes__list .recipes__item .recipes__icon{
+
+.recipes .recipes__list .recipes__item .recipes__icon {
     width: 30px;
     height: 30px;
     cursor: pointer;
